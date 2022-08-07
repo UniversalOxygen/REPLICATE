@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Open+Sans:wght@400;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@100;400&family=Work+Sans:wght@600&display=swap');
+
+body {
+    margin: 0;
+
+}
+
+.hero-con {
+    background-image: url(./images/hero-bg.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    display: block;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.logo-con {
+    display: flex;
+    margin: auto;
+    padding: 69px;
+
+}
+
+.Logo {
+
+    margin: auto;
+    border-style: none;
+    vertical-align: middle;
+
+}
+
+.hero {
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #514949;
+    margin-top: 36px;
+    font-family: poppins;
+    display: block;
+}  
+
+.hero p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+    font-family: Roboto;
+}
+
+em {
+    font-style: normal;
+    color: #E7332B;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Btn-con {
+    margin-top: 92px;
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn1 {
+    background: #E7332B;
+    color: #fff;
+    margin-right: 24px;
+    padding: 11px 28px;
+    border: 1px solid #E7332B;
+    border-radius: 0;
+}
+
+.btn2 {
+    background: #fff;
+    color: #E7332B;
+    padding: 11px 28px;
+    border: 1px solid #E7332B;
+}
+
+.btn1, .btn2:hover {
+    cursor: pointer;
+}
+
+
+/*//////////PROGRAM section////////*/
+
+.program {
+    background: #fff;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.program h3 {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #E7332B;
+    margin-top: 140px;
+    font-family: Roboto;
+    display: block;
+}
+
+.program p {
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+    font-family: Roboto;
+    display: block;
+}
+
+.zuri-row {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.team .img-team {
+    display: flex;
+    margin-bottom: 48px;
+    justify-content: left;
+}
+
+.zuri-row p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #514949;
+    opacity: 0.9;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-family: Roboto;
+    display: block;
+    text-align: left;
+}
+
+.zuri-row .team {
+    max-width: 25%;
+    justify-content: space-between;
+    padding: 61px 47px 0px 36px;
+    background: #FFFAFA;
+}
+
+.zuri-row em {
+    text-align: left;
+}
+
+
+.team-con {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -20%;
+    margin-right: -20%;
+}
+
+
+.l-bvm {
+    width: 100%;
+    margin-top: -20%;
+    
+}
+
+.l-bvm1 {
+    width: 100%;
+    margin-top: -20%;
+    
+}
+
+/* ///////////////Footer/////// */
+
+footer {
+    margin-top: 200px;
+}
+
+.footer-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    padding-bottom: 97px;
+}
+
+
+footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #514949;
+    margin-bottom: 0.5rem;
+    font-family: poppins;
+}
+
+footer p {
+    color: #514949;
+    opacity: 0.9;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 1rem;
+}
+
+.contact-icons img {
+    width: 18px;
+}
+
+
+
